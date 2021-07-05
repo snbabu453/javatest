@@ -7,7 +7,7 @@ pipeline {
       }
     }
 
-    stage('builds') {
+    stage('builsds') {
       steps {
         sh '''javac HelloWorld.java
 java HelloWorld'''
