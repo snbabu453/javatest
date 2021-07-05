@@ -1,7 +1,7 @@
 pipeline {
   agent any
   stages {
-    stage('scm') {
+    stage('scsm') {
       steps {
         git(url: 'https://github.com/jmstechhome/javatest.git', branch: 'master')
       }
