@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('scm') {
       steps {
-        git(url: 'https://github.com/jmstechhome/javatest.git', branch: 'master', credentialsId: 'github_credentials')
+        git(url: 'https://github.com/jmstechhome/javatest.git', branch: 'master')
       }
     }
 
